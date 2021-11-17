@@ -1,37 +1,9 @@
-.navbar-dark .navbar-brand {
-  color: #a4b0be;
-  font-weight: 500;
-  letter-spacing: 3px;
-  font-style: oblique;
-}
-
-.navbar-dark .navbar-brand:hover {
-  color: #f7f0f0;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-  color: #f7f0f0;
-  font-weight: 500;
-  font-style: oblique;
-  letter-spacing: 2px;
-}
-
-.navbar-dark .navbar-nav .nav-link:hover {
-  color: #a4b0be;
-  font-weight: 600;
-}
-
-.navbar-brand {
-  font-family: "Dancing Script";
-  font-size: 28px;
-}
-
 .bg-img {
-  background-image: url("https://i.postimg.cc/2jq74W8Q/1.jpg");
+  background-image: url("https://i.postimg.cc/HsCNLmQ1/1.jpg");
   min-height: 580px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQTtFQUNJLGNBQWM7RUFDZCxnQkFBZ0I7RUFDaEIsbUJBQW1CO0VBQ25CLG1CQUFtQjtBQ0F2Qjs7QURHQTtFQUNJLGNBQWM7QUNBbEI7O0FER0E7RUFDSSxjQUFjO0VBQ2QsZ0JBQWdCO0VBQ2hCLG1CQUFtQjtFQUNuQixtQkFBbUI7QUNBdkI7O0FER0E7RUFDSSxjQUFjO0VBQ2QsZ0JBQWdCO0FDQXBCOztBREdBO0VBQ0ksNkJBQTZCO0VBQzdCLGVBQWU7QUNBbkI7O0FER0E7RUFDSSw0REFBNEQ7RUFDNUQsaUJBQWlCO0VBQ2pCLDJCQUEyQjtFQUMzQiw0QkFBNEI7RUFDNUIsc0JBQXNCO0VBQ3RCLGtCQUFrQjtBQ0F0QiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFHQTtFQUNJLDREQUE0RDtFQUM1RCxpQkFBaUI7RUFDakIsMkJBQTJCO0VBQzNCLDRCQUE0QjtFQUM1QixzQkFBc0I7RUFDdEIsa0JBQWtCO0FDRnRCIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
