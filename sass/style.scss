@@ -9,3 +9,58 @@
     background-size: cover;
     position: relative;
 }
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 42px;
+    margin-bottom: 42px;
+  }
+  
+  .services h2 {
+    font-size: 42px;
+    font-weight: 800;
+    color: #605761;
+    font-family: "Open Sans Condensed", sans-serif;
+  }
+  
+  .services h3 {
+    font-size: 18px;
+    font-family: "Open Sans Condensed", sans-serif;
+    opacity: 0.8;
+    font-style: oblique;
+    font-weight: 500;
+  }
+  
+  .information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    margin-bottom: 42px;
+  }
+  
+  .information i {
+    color: #605761;
+    font-size: 68px;
+  }
+  
+  .information h4 {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 12px 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .information h5 {
+    font-size: 14px;
+    opacity: 0.8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .services-icons {
+    margin-bottom: 70px;
+  }
+  
