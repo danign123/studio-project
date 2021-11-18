@@ -2,7 +2,8 @@
 
 
 .bg-img {
-    background-image: url("https://i.postimg.cc/HsCNLmQ1/1.jpg");
+    background-image: url('/images/1.jpg');
+    /*background-image: url("https://i.postimg.cc/J7NxTHH9/1.jpg");*/
     min-height: 580px;
     background-position: center;
     background-repeat: no-repeat;
@@ -64,3 +65,28 @@
     margin-bottom: 70px;
   }
   
+  .row {
+    position: relative;
+  }
+
+  .card {
+    margin-bottom: 25px;
+  }
+
+  .card-title {
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-align: center;
+  }
+
+
+  p {
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    opacity: 0.8;
+    font-style: italic;
+  }
+
+ 
