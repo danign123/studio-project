@@ -73,7 +73,6 @@ body {
   position: absolute;
   width: 100%;
   height: 100hv;
-  -o-object-fit: cover;
   object-fit: cover;
 }
 
@@ -125,6 +124,33 @@ body {
 }
 
 .box p {
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.portfolio {
+  background-color: rgb(232, 255, 185);
+}
+
+.portfolio-box {
+  background-color:rgb(242, 255, 215) ;
+  border: 1px;
+  border-radius: 5%;
+}
+
+.portfolio-imgage img {
+  margin-top: 30px;
+  height: 600px;
+  width: 400px;
+  object-fit: cover;
+  padding-top: 10px;
+}
+
+.portfolio-description {
+  margin-bottom: 50px;
+}
+
+.portfolio-description p {
   font-style: italic;
   opacity: 0.8;
 }
