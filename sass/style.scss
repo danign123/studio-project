@@ -98,3 +98,33 @@ body {
 .navbar .collapse {
   display: flex;
 }
+
+.title {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  width: 100%;
+}
+
+.h-title {
+  font-size: 50px;
+}
+
+.p-title {
+  margin-top: -25px;
+  font-style: italic;
+}
+
+.services .box {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.services .box i {
+  color:yellowgreen;
+  font-size: 45px;
+}
+
+.box p {
+  font-style: italic;
+  opacity: 0.8;
+}
