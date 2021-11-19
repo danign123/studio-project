@@ -1,119 +1,100 @@
 
-
-
-.bg-img {
-    background-image: url('/images/1.jpg');
-    /*background-image: url("https://i.postimg.cc/J7NxTHH9/1.jpg");*/
-    min-height: 580px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+body {
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.services {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 42px;
-    margin-bottom: 42px;
-  }
-  
-  .services h2 {
-    font-size: 42px;
-    font-weight: 800;
-    color: #605761;
-    font-family: "Open Sans Condensed", sans-serif;
-  }
-  
-  .services h3 {
-    font-size: 18px;
-    font-family: "Open Sans Condensed", sans-serif;
-    opacity: 0.8;
-    font-style: oblique;
-    font-weight: 500;
-  }
-  
-  .information {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    font-family: "Dancing Script", cursive;
-    margin-bottom: 42px;
-  }
-  
-  .information i {
-    color: #605761;
-    font-size: 68px;
-  }
-  
-  .information h4 {
-    font-size: 28px;
-    font-weight: 600;
-    margin: 12px 0;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-  
-  .information h5 {
-    font-size: 14px;
-    opacity: 0.8;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-  
-  .services-icons {
-    margin-bottom: 70px;
-  }
-  
-  .services .portfolio {
-    text-align: center;
-  }
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  text-align: center;
+  margin: auto;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
 
-  .bg {
-    background-color:#f1f1f1;
-  }
-   
-  
-  .row {
-    position: relative;
-  }
+.container p {
+  color: black;
+}
 
-  .card {
-    margin-bottom: 25px;
-  }
+.header {
+  background-image: url('/images/1.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
 
-  .card-title {
-    font-size: 28px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 600;
-    text-align: center;
-  }
+.header-box {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-  p {
-    font-size: 14px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    opacity: 0.8;
-    font-style: italic;
-  }
+.header-box h3, .header-box h1 {
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
-  .footer {
-    margin: 20px auto;
-    display: flex;
-    align-items: center;
-  }
+.header-box h3 {
+  font-size: 50px;
+}
 
-  .icon-box i {
-    font-size: 30px;
-    padding: 5px;
-  }
+.btn {
+  background-color:yellowgreen;
+  border-radius: 20%;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display:inline-block;
+  font-size: 15px;
+}
 
- 
+.navbar {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100hv;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
- @media (max-width: 1200px) {
-   .card {
-     width: 80%;
-     padding: 0;
-     margin: 20px auto;
-   }
- }
+.navbar .flex {
+  display: flex;
+  position: relative;
+}
+
+.navbar img {
+  position: absolute;
+  width: 100%;
+  height: 100hv;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.navbar .navbar-brand {
+  margin: 40px 60px;
+  color: white;
+  font-size: xx-large;
+  font-weight: 800;
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar .nav-link {
+  display: block;
+  padding: 20px 20px;
+  color:yellowgreen;
+  text-decoration: none;
+}
+
+.navbar .collapse {
+  display: flex;
+}
