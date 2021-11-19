@@ -129,7 +129,7 @@ body {
 }
 
 .portfolio {
-  background-color: rgb(232, 255, 185);
+  background-color: rgb(247, 253, 235);
 }
 
 .portfolio-box {
@@ -138,12 +138,13 @@ body {
   border-radius: 5%;
 }
 
-.portfolio-imgage img {
-  margin-top: 30px;
-  height: 600px;
-  width: 400px;
+.portfolio-image img {
+  margin-top: 10px;
+  height: 400px;
+  width: 250px;
   object-fit: cover;
-  padding-top: 10px;
+  padding-top: 15px;
+  
 }
 
 .portfolio-description {
@@ -153,4 +154,6 @@ body {
 .portfolio-description p {
   font-style: italic;
   opacity: 0.8;
+  padding-top: 0;
+  padding-bottom: 15px;
 }
