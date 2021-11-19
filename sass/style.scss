@@ -8,6 +8,10 @@ body {
   margin: 0;
 }
 
+.row {
+  margin: 0;
+  padding: 0;
+}
 .container {
   max-width: 1140px;
   padding: 0 20px;
@@ -82,16 +86,14 @@ body {
 }
 
 .navbar .navbar-brand {
-  margin: 40px 60px;
+  margin: 40px 0px;
   color: white;
   font-size: xx-large;
   font-weight: 800;
   position: relative;
 }
 
-.navbar-brand {
- padding: 0;
-}
+
 
 .navbar ul {
   list-style-type: none;
